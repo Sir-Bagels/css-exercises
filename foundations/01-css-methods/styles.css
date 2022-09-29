@@ -1,8 +1,10 @@
 body{
     background-color: black;
+    
 }
 
 div{
+    text-align: center;
     color: white;
     font-weight: 900;
     font-size: 32px;
