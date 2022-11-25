@@ -13,7 +13,7 @@ img {
   font-size: 36px;
   font-weight: 900;
   text-align: center;
-  padding-bottom: 32px;
+  margin-bottom: 32px;
 }
 
 /* do not edit this footer */
@@ -31,24 +31,12 @@ img {
 .main-container{
   display: flex;
   justify-content: center;
+  gap: 52px;
   
 
 }
-.container-1{
-  margin-right: 52px;
-  
-}
-.container-2{
-  margin-right: 52px;
-}
-.container-3{
-  margin-right: 52px;
-}
-.container-4{
-  margin-right: 52px;
-}
+
 .text{
-  display: flex;
   width: 200px;
   text-align: center;
 }
