@@ -5,11 +5,15 @@ body {
 img {
   width: 100px;
   height: 100px;
+  
+  
 }
 
 .title {
   font-size: 36px;
   font-weight: 900;
+  text-align: center;
+  padding-bottom: 32px;
 }
 
 /* do not edit this footer */
@@ -23,4 +27,45 @@ img {
   align-items: center;
   justify-content: center;
   background: #eee;
+}
+.main-container{
+  display: flex;
+  justify-content: center;
+  
+
+}
+.container-1{
+  margin-right: 52px;
+  
+}
+.container-2{
+  margin-right: 52px;
+}
+.container-3{
+  margin-right: 52px;
+}
+.container-4{
+  margin-right: 52px;
+}
+.text{
+  display: flex;
+  width: 200px;
+  text-align: center;
+}
+
+.container-1-2{
+  display: flex;
+  justify-content: center;
+}
+.container-2-2{
+  display: flex;
+  justify-content: center;
+}
+.container-3-2{
+  display: flex;
+  justify-content: center;
+}
+.container-4-2{
+  display: flex;
+  justify-content: center;
 }

@@ -9,6 +9,9 @@
   color: tomato;
   background: white;
   padding: 4px 32px;
+  /* border: solid green; */
+  /* flex: 1; */
+  text-align: center;
 }
 
 ul {
@@ -38,4 +41,7 @@ ul {
   margin: 0;
   padding: 0;
   gap: 8px;
+  justify-content: end;
+  /* border: solid green; */
+  /* flex: 1; */
 }
