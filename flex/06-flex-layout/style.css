@@ -7,10 +7,12 @@ body {
   font-family: Roboto, sans-serif;
   display: flex;
   flex-direction: column;
+  flex-shrink: 1;
 }
 
 img {
   width: 600px;
+  flex-shrink: 1;
 }
 
 button {
@@ -18,6 +20,8 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  flex-shrink: 1;
+
 }
 
 input {
@@ -29,6 +33,7 @@ input {
 }
 .header{
   display: flex;
+  flex-shrink: 1;
   
 }
  .left-links li {
@@ -73,6 +78,7 @@ input {
   display: flex;
   justify-content: center;
   margin-top: 250px;
+  flex-shrink: 1;
 }
 .input{
   display: flex;
@@ -82,6 +88,7 @@ input {
   justify-content: center;
   display: flex;
   gap: 10px;
+  flex-shrink: 1;
 
 }
 .buttons button{
@@ -90,6 +97,7 @@ input {
 }
 .footer{
   display: flex;
+  flex-shrink: 1;
 }
 .left-links1 li {
   display: inline;
