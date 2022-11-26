@@ -42,6 +42,7 @@ body {
   /* border: solid red; */
   margin-top: 10px;
   margin-left: 10px;
+  flex-shrink: 0;
 }
 
 .close-button {
